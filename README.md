@@ -9,7 +9,7 @@ Company website for an existing company — a free design cleanup for the owner.
 | `index.html` | Single-page website (semantic HTML5) |
 | `styles.css` | All styles — clean, minimal, mobile-responsive |
 
-## Customising the content
+## Customizing the content
 
 The following items in `index.html` should be updated to match the live site exactly:
 
