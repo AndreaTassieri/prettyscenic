@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" role="img" aria-label="Pretty Scenic">
+  <title>Pretty Scenic</title>
+  <!-- PRETTY block (pink background) -->
+  <rect x="0" y="0" width="540" height="110" fill="#e8136e" rx="4"/>
+  <!-- SCENIC block (black background) -->
+  <rect x="0" y="110" width="540" height="110" fill="#1a1a1a" rx="4"/>
+  <!-- PRETTY text -->
+  <text x="270" y="92" font-family="Impact, Arial Black, sans-serif" font-size="90" font-weight="900"
+        fill="#ffffff" text-anchor="middle" letter-spacing="4">PRETTY</text>
+  <!-- SCENIC text -->
+  <text x="270" y="196" font-family="Impact, Arial Black, sans-serif" font-size="90" font-weight="900"
+        fill="#a8c438" text-anchor="middle" letter-spacing="4">SCENIC</text>
+</svg>
