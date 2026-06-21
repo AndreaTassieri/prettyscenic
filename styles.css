@@ -25,6 +25,10 @@
   --radius:  6px;
   --shadow:  0 2px 12px rgba(0,0,0,0.08);
 
+  --font-size-label:       0.72rem;
+  --font-weight-label:     700;
+  --letter-spacing-label:  0.12em;
+
   --max-w:   1100px;
   --gap:     2rem;
 }
@@ -90,14 +94,22 @@ h3 { font-size: 1.15rem; font-weight: 700; }
 
 p { color: var(--color-text-muted); }
 
+.label,
+.contact-label {
+  font-size: var(--font-size-label);
+  font-weight: var(--font-weight-label);
+  letter-spacing: var(--letter-spacing-label);
+  text-transform: uppercase;
+}
+
 .label {
   display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
   color: var(--color-accent);
   margin-bottom: 0.75rem;
+}
+
+.contact-label {
+  color: var(--color-text-muted);
 }
 
 /* ----- Button ----- */
@@ -271,14 +283,6 @@ p { color: var(--color-text-muted); }
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-}
-
-.contact-label {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-text-muted);
 }
 
 .contact-item a,
